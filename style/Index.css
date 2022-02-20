@@ -1,0 +1,421 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url("/images/the-town-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav div:first-child{
+    position: relative;
+    padding: 13px 20px;
+    font-weight: 600;
+}
+nav div:first-child a{
+    color: white;
+    text-decoration: none;
+}
+nav div a:hover{
+    color: #07165f;
+}
+nav div:nth-child(2) .list{
+    margin-top: -30.5px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+nav div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+nav div ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: white;  
+    font-size: 14px;
+}
+header .Title{
+    text-align: center;
+    padding: 10% 0px 23% 0;
+}
+header  .Title h1{
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: lighter;
+}
+.Container{
+    position: relative;
+    display: flex;
+    padding: 10%;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.Container .image{
+    margin: auto 25px ;
+    width: 100%;
+}
+.Container .image img{
+    width: 100%;
+    margin: auto;
+}
+.Container .intro h1 {
+    color: #5198ce;
+    font-weight: lighter;
+    font-size: 35px;
+}
+.Container .intro p {
+    color: #afaeae;
+    font-size: 18px;
+    width: 80%;
+}
+.Container .intro{
+    justify-content: right;
+    margin:auto}
+.Container .intro p a{
+    text-decoration: none;
+    color: #5198ce;
+}
+.Container .intro input {
+    color: white;
+    background-color: #5198ce;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.Container div input:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #5198ce;
+    border: 1px solid #5198ce;
+}
+.ServiceContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0px  auto;
+    width: 80%;
+    padding-bottom: 40px;
+}
+.ServiceContainer div h1{
+    font-weight: lighter;
+    font-size: 35px;
+    color: #949292;
+    margin-bottom: 0px;
+}
+.ServiceContainer div small{
+    color: #5198ce;
+}
+.ServiceContainer div p{
+    color: #afaeae;
+    width: 290px;
+    line-height: 20px;
+    font-size: small;
+    text-align: left;
+}
+.Workcontianer div:first-child h1{
+    text-align: center;
+    color: #5198ce;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.Workcontianer div:first-child>p{
+    font-size:small;
+    color:#afaeae;
+    width:48%;
+    margin: auto;
+}
+.Workcontianer div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Workcontianer div:nth-child(2) div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+    -webkit-transition: transform 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out;
+    -ms-transition: transform 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.Workcontianer div:nth-child(2) div div img{
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.Workcontianer div:nth-child(2) div div:nth-child(1){
+    background-color: #07165f;
+    width: 250px;
+    height: 350px;
+    top: 20px;
+    z-index: 2;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+}
+.Workcontianer div:nth-child(2) div div:nth-child(1) p{
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.Workcontianer div:nth-child(2) div div:nth-child(2){
+    position: relative;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.Workcontianer div:nth-child(2) div:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+footer{
+    padding: 50px;
+    margin: auto;
+    color: white;
+    background-image: url("/images/the-town-bg-02.jpg");
+    background-repeat: no-repeat;
+    background-attachment:cover;
+    background-size: 100% 100%;
+}
+footer div{
+    width: 80%;
+    margin: auto;
+}
+footer div:first-child h1{
+    font-weight: lighter;
+    padding: 15px;
+    width: fit-content;
+    border-bottom: 5px solid white;
+}
+footer div:first-child p{
+    font-size: 18px;
+    line-height: 30px;
+    border-top: 2px solid white;
+    padding: 50px 0;
+    margin-top: -27px;
+}
+footer div:nth-child(2){
+    display: flex;
+    justify-content: left;
+}
+footer div:nth-child(2) p:nth-child(2){
+    margin-left:40% ;
+}
+footer div:nth-child(3){
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin:40px auto ;
+}
+footer div:nth-child(3) img{
+    width: 50%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+footer div:nth-child(3) form{
+    margin: 0 20px ;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+}
+footer div:nth-child(3) form input:first-child{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+footer div:nth-child(3) form input::placeholder{
+    color: white;
+}
+footer div:nth-child(3) form input:nth-child(2){
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+footer div:nth-child(3) form input:nth-child(2):hover{
+    cursor: pointer;
+}
+footer div:nth-child(4){
+    padding-top:50px;
+}
+footer div:nth-child(4) p {
+    font-size: small;
+    text-align: center;
+    margin-bottom:-25px ;
+}
+@media (max-width:900px){
+    body{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    header .Title{
+        padding: 0 0 33% 0;
+    }
+    header  .Title h1{
+        font-size: 25px;
+        text-shadow: 1px 1px 2px black;
+        font-weight: lighter;
+    }
+    header  .Title p{
+        font-size: 10px;
+    }
+    nav div:nth-child(2) .list ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+    }
+    nav div:nth-child(2) .list{
+        display: block;
+        padding: 40px;
+    }
+    nav div:nth-child(2) .list:hover{
+        color: #07165f;
+        cursor: pointer;
+    }
+    nav div:nth-child(2) .list:hover ul{
+        display: block;
+        margin-left:-52px;
+        text-align: center;
+    }
+    footer div:first-child p{
+        font-size: 14px;
+        margin-top: -14px;
+    }
+    .Container .intro h1 {
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    .Container .intro p {
+        font-size: 15px;
+        margin: auto;
+    }
+    .Container .intro input {
+        font-size: 14px;
+    }
+    .ServiceContainer div h1{
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    footer div:first-child h1{
+        font-size: 20px;
+    }
+    footer div:nth-child(3) form {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div:nth-child(3) form input {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    footer div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    footer div:nth-child(2) p:nth-child(2){
+        margin: 0;
+    }
+    footer div:nth-child(4) p {
+        font-size: 10px;
+        text-align: center;
+        margin:auto;
+    }
+    .Workcontianer div:first-child h1{
+        font-size: 26px;
+    }
+    .Workcontianer div:first-child p{
+        width:80%;
+    }
+    .Container{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:280px){
+    body{
+        width: 100%;
+        word-wrap:break-word;
+        text-align: center;
+    }
+    footer{
+        margin-left: -50px;
+    }
+    footer div:nth-child(4) p {
+        font-size: 10px;
+        text-align: center;
+        margin-left:50px;
+    }
+    .ServiceContainer div p{
+        width: 90%;
+    }
+}
